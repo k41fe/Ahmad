@@ -9,9 +9,9 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "song")
+SESSION_NAME = getenv("SESSION_NAME", "AgDP2QIApeElKYn74FNMRrLnmOYSFTbAZrkaJR9lcEEjhc_usdq3flRRdm-M9ur6ieYJGskTkUnPF2dIDna1K5fhfN-JgB4UAAzi1jO_8iuwNxYU8flo3WbIAAhzANd33EJHERmqtfqVDFMmfLfnHFyJh5z_FSjguvtTAuPAwYLJg9r-3dtnGI0HU4Y2GlafPCr_tpquKR5-4cyDNqchyiTeaca1aCerwSGvl5fJQ2x-7vRjeeiOsxqMRw8oK0QZBSEPuDyJoDBlWXFx3gzfPxloa5J4TrmQPqXtQQDRhxRpAXdIbCfEtoXopJjAd2GqhA3fgqfS9E7Dpn-y_gYnHYRkEj__yAAAAAEz8Z6iAA")
+BOT_TOKEN = getenv("BOT_TOKEN", "5785474694:AAGw--nnGsPbttO3TaTRboG_8f_k-DVVaM4")
+BOT_NAME = getenv("BOT_NAME", "HEOBO_BOT")
 API_ID = int(getenv("API_ID", "8186557"))
 API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
 OWNER_NAME = getenv("OWNER_NAME", "muntazer")
